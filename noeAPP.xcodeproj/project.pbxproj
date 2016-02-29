@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE884B011C7E6A4B00C8396D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE884B001C7E6A4B00C8396D /* AppDelegate.swift */; };
+		BE884B061C7E6A4B00C8396D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE884B041C7E6A4B00C8396D /* Main.storyboard */; };
+		BE884B091C7E6A4C00C8396D /* noeAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE884B071C7E6A4C00C8396D /* noeAPP.xcdatamodeld */; };
+		BE884B0B1C7E6A4C00C8396D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE884B0A1C7E6A4C00C8396D /* Assets.xcassets */; };
+		BE884B0E1C7E6A4C00C8396D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE884B0C1C7E6A4C00C8396D /* LaunchScreen.storyboard */; };
+		BE884B171C7E6C2600C8396D /* Anottation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE884B151C7E6C2600C8396D /* Anottation+CoreDataProperties.swift */; };
+		BE884B181C7E6C2600C8396D /* Anottation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE884B161C7E6C2600C8396D /* Anottation.swift */; };
+		BE884B1A1C7E74ED00C8396D /* NoiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE884B191C7E74ED00C8396D /* NoiteViewController.swift */; };
+		BE884B1D1C7E787B00C8396D /* NoiteAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE884B1C1C7E787B00C8396D /* NoiteAnnotationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE884AFD1C7E6A4B00C8396D /* noeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE884B001C7E6A4B00C8396D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE884B051C7E6A4B00C8396D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE884B081C7E6A4C00C8396D /* noeAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = noeAPP.xcdatamodel; sourceTree = "<group>"; };
+		BE884B0A1C7E6A4C00C8396D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE884B0D1C7E6A4C00C8396D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE884B0F1C7E6A4C00C8396D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE884B151C7E6C2600C8396D /* Anottation+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Anottation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE884B161C7E6C2600C8396D /* Anottation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anottation.swift; sourceTree = "<group>"; };
+		BE884B191C7E74ED00C8396D /* NoiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiteViewController.swift; sourceTree = "<group>"; };
+		BE884B1C1C7E787B00C8396D /* NoiteAnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoiteAnnotationViewController.swift; path = ../NoiteAnnotationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE884AFA1C7E6A4B00C8396D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE884AF41C7E6A4B00C8396D = {
+			isa = PBXGroup;
+			children = (
+				BE884AFF1C7E6A4B00C8396D /* noeAPP */,
+				BE884AFE1C7E6A4B00C8396D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE884AFE1C7E6A4B00C8396D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE884AFD1C7E6A4B00C8396D /* noeAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE884AFF1C7E6A4B00C8396D /* noeAPP */ = {
+			isa = PBXGroup;
+			children = (
+				BE884B001C7E6A4B00C8396D /* AppDelegate.swift */,
+				BE884B1B1C7E74F600C8396D /* Noite Familiar */,
+				BE884B041C7E6A4B00C8396D /* Main.storyboard */,
+				BE884B0A1C7E6A4C00C8396D /* Assets.xcassets */,
+				BE884B0C1C7E6A4C00C8396D /* LaunchScreen.storyboard */,
+				BE884B0F1C7E6A4C00C8396D /* Info.plist */,
+				BE884B071C7E6A4C00C8396D /* noeAPP.xcdatamodeld */,
+				BE884B151C7E6C2600C8396D /* Anottation+CoreDataProperties.swift */,
+				BE884B161C7E6C2600C8396D /* Anottation.swift */,
+			);
+			path = noeAPP;
+			sourceTree = "<group>";
+		};
+		BE884B1B1C7E74F600C8396D /* Noite Familiar */ = {
+			isa = PBXGroup;
+			children = (
+				BE884B191C7E74ED00C8396D /* NoiteViewController.swift */,
+				BE884B1C1C7E787B00C8396D /* NoiteAnnotationViewController.swift */,
+			);
+			name = "Noite Familiar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE884AFC1C7E6A4B00C8396D /* noeAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE884B121C7E6A4C00C8396D /* Build configuration list for PBXNativeTarget "noeAPP" */;
+			buildPhases = (
+				BE884AF91C7E6A4B00C8396D /* Sources */,
+				BE884AFA1C7E6A4B00C8396D /* Frameworks */,
+				BE884AFB1C7E6A4B00C8396D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noeAPP;
+			productName = noeAPP;
+			productReference = BE884AFD1C7E6A4B00C8396D /* noeAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE884AF51C7E6A4B00C8396D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Henrique;
+				TargetAttributes = {
+					BE884AFC1C7E6A4B00C8396D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BE884AF81C7E6A4B00C8396D /* Build configuration list for PBXProject "noeAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE884AF41C7E6A4B00C8396D;
+			productRefGroup = BE884AFE1C7E6A4B00C8396D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE884AFC1C7E6A4B00C8396D /* noeAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE884AFB1C7E6A4B00C8396D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE884B0E1C7E6A4C00C8396D /* LaunchScreen.storyboard in Resources */,
+				BE884B0B1C7E6A4C00C8396D /* Assets.xcassets in Resources */,
+				BE884B061C7E6A4B00C8396D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE884AF91C7E6A4B00C8396D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE884B1A1C7E74ED00C8396D /* NoiteViewController.swift in Sources */,
+				BE884B1D1C7E787B00C8396D /* NoiteAnnotationViewController.swift in Sources */,
+				BE884B181C7E6C2600C8396D /* Anottation.swift in Sources */,
+				BE884B091C7E6A4C00C8396D /* noeAPP.xcdatamodeld in Sources */,
+				BE884B171C7E6C2600C8396D /* Anottation+CoreDataProperties.swift in Sources */,
+				BE884B011C7E6A4B00C8396D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE884B041C7E6A4B00C8396D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE884B051C7E6A4B00C8396D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE884B0C1C7E6A4C00C8396D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE884B0D1C7E6A4C00C8396D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE884B101C7E6A4C00C8396D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE884B111C7E6A4C00C8396D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE884B131C7E6A4C00C8396D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = noeAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henvoni.noeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE884B141C7E6A4C00C8396D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = noeAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henvoni.noeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE884AF81C7E6A4B00C8396D /* Build configuration list for PBXProject "noeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE884B101C7E6A4C00C8396D /* Debug */,
+				BE884B111C7E6A4C00C8396D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE884B121C7E6A4C00C8396D /* Build configuration list for PBXNativeTarget "noeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE884B131C7E6A4C00C8396D /* Debug */,
+				BE884B141C7E6A4C00C8396D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE884B071C7E6A4C00C8396D /* noeAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE884B081C7E6A4C00C8396D /* noeAPP.xcdatamodel */,
+			);
+			currentVersion = BE884B081C7E6A4C00C8396D /* noeAPP.xcdatamodel */;
+			path = noeAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE884AF51C7E6A4B00C8396D /* Project object */;
+}
